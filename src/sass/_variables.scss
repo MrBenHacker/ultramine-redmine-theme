@@ -16,16 +16,16 @@ $sidebar-position:              left !default;
 $clean-issues:                  true !default;
 $color-trackers:                true !default;
 $color-status:                  true !default;
-$color-priorities:              false !default;
+$color-priorities:              true !default;
 $priority-icon:                 true !default;
-$use-gravatars:                 true !default;
-$use-logo:                      false !default;
-$use-retina-logo:               false !default;
+$use-gravatars:                 false !default;
+$use-logo:                      true !default;
+$use-retina-logo:               true !default;
 $use-project-tiles:             true !default;
 $issue-subject-large:           true !default;
 $enable-sidebar-toggler:        true !default;
 $wiki-page-more-vertical-space: true !default;
-$top-menu-collapse:             false !default;
+$top-menu-collapse:             true !default;
 $agile-board-customize:         true !default;
 
 
@@ -78,7 +78,7 @@ $gray-800:                      shade($gray, 800) !default;
 $gray-900:                      shade($gray, 900) !default;
 $gray-950:                      shade($gray, 950) !default;
 
-$brand-primary:                 $purple !default;
+$brand-primary:                 #4cbb17 !default;
 $brand-text:                    $white !default;
 $brand-accent:                  shade($brand-primary, 100) !default;
 
@@ -313,30 +313,30 @@ $priority-custom-icons-map:     () !default;
 $priority-icons-map:            map-merge($priority-default-icons-map, $priority-custom-icons-map);
 
 $priority-default-color-map: (
-  lowest: (
-    border:                     shade($green, $table-color-border-shade),
-    background:                 $green,
-    color:                      $text-color,
-    link:                       shade($green, 700),
-  ),
-  low2: (
-    border:                     shade(mix($teal, $green), $table-color-border-shade),
-    background:                 mix($teal, $green),
-    color:                      $text-color,
-    link:                       shade(mix($teal, $green), 700),
-  ),
-  low3: (
-    border:                     shade($teal, $table-color-border-shade),
-    background:                 $teal,
-    color:                      $text-color,
-    link:                       shade($teal, 700),
-  ),
-  default: (
-    border:                     shade($blue, $table-color-border-shade),
-    background:                 $blue,
-    color:                      $text-color,
-    link:                       shade($blue, 700),
-  ),
+//   lowest: (
+//     border:                     shade($green, $table-color-border-shade),
+//     background:                 $green,
+//     color:                      $text-color,
+//     link:                       shade($green, 700),
+//   ),
+//   low2: (
+//     border:                     shade(mix($teal, $green), $table-color-border-shade),
+//     background:                 mix($teal, $green),
+//     color:                      $text-color,
+//     link:                       shade(mix($teal, $green), 700),
+//   ),
+//   low3: (
+//     border:                     shade($teal, $table-color-border-shade),
+//     background:                 $teal,
+//     color:                      $text-color,
+//     link:                       shade($teal, 700),
+//   ),
+//   default: (
+//     border:                     shade($blue, $table-color-border-shade),
+//     background:                 $blue,
+//     color:                      $text-color,
+//     link:                       shade($blue, 700),
+//   ),
   high5: (
     border:                     shade($purple, $table-color-border-shade),
     background:                 $purple,
