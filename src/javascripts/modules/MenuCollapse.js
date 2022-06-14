@@ -88,7 +88,7 @@ PurpleMine.MenuCollapse = (function () {
     instance.menus[menu].$toggler = $(togglerHtml)
 
     instance.menus[menu].$el.prepend(instance.menus[menu].$toggler)
-    instance.menus[menu].$toggler.on('click', { menu: menu }, instance.toggleMenu)
+    instance.menus[menu].$toggler.on('click', { menu }, instance.toggleMenu)
   }
 
   MenuCollapse.prototype.toggleMenu = function (event) {

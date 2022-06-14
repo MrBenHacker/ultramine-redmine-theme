@@ -7,4 +7,7 @@ module.exports = {
   "ignorePatterns": [
     "/javascripts/",
   ],
+  "rules": {
+    "no-var": "off",
+  }
 };
